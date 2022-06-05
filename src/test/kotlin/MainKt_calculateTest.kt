@@ -12,7 +12,7 @@ class MainKt_calculateTest {
 
         val result = calculateComission(transfer, cardTypeVk, transferAmount)
 
-        assertEquals(0, result)
+        assertEquals(1 /* 0 */, result)
     }
 
     @Test
